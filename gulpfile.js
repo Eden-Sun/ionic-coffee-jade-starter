@@ -53,7 +53,7 @@ gulp.task('jade',function(done){
       cp.exec('say fail Jade');
       done();
     })
-    .pipe(gulp.dest('./www/template2'))
+    .pipe(gulp.dest('./www/templates'))
     .on('end',done)
 
   stream.on("end",function(){
