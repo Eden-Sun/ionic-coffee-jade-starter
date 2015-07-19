@@ -4,8 +4,9 @@ angular.module('starter', ['ionic', 'starter.controllers']).run(function($ionicP
       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
     }
     if (window.StatusBar) {
-      return StatusBar.styleDefault();
+      StatusBar.styleDefault();
     }
+    return console.log("start");
   });
 }).config(function($stateProvider, $urlRouterProvider) {
   $stateProvider.state('app', {
@@ -69,13 +70,13 @@ angular.module('starter.controllers', []).controller('AppCtrl', function($scope,
 }).controller('PlaylistsCtrl', function($scope) {
   return $scope.playlists = [
     {
-      title: 'Reggae',
+      title: 'Jacky244nX',
       id: 1
     }, {
       title: 'Chill',
       id: 2
     }, {
-      title: 'Dubstep',
+      title: 'Dubstep000',
       id: 3
     }, {
       title: 'Indie',

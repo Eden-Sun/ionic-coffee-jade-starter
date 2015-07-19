@@ -9,7 +9,7 @@ angular.module('starter', [
   'starter.controllers'
 ])
 
-.run(($ionicPlatform) ->
+.run ($ionicPlatform) ->
   $ionicPlatform.ready ->
 
     # Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
@@ -19,8 +19,7 @@ angular.module('starter', [
 
     # org.apache.cordova.statusbar required
     StatusBar.styleDefault() if window.StatusBar
-)
-
+    console.log "start"
 .config ($stateProvider, $urlRouterProvider) ->
   $stateProvider
     .state('app',

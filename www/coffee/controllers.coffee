@@ -27,7 +27,7 @@ angular.module('starter.controllers', [])
 .controller('PlaylistsCtrl', ($scope) ->
   $scope.playlists = [
     {
-      title: 'Reggae'
+      title: 'Jacky244nX'
       id: 1
     }
     {
@@ -35,7 +35,7 @@ angular.module('starter.controllers', [])
       id: 2
     }
     {
-      title: 'Dubstep'
+      title: 'Dubstep000'
       id: 3
     }
     {
